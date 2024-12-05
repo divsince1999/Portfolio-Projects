@@ -1,0 +1,94 @@
+.member-resources .apbs-right p {
+    margin-bottom: 50px;
+}
+
+.evidence p:last-child,
+.practice-guidelines p:last-child,
+.define p:last-child {
+    margin-bottom: 0;
+}
+
+.define .table-row {
+    margin-top: 50px;
+}
+
+.define .disclaimer {
+    padding: 20px 30px;
+    background: var(--light-blue);
+    border: 1px solid var(--grey);
+    border-top: 0;
+    margin-bottom: 0;
+}
+
+.define .disclaimer strong {
+    font-weight: 600;
+    color: var(--blue);
+}
+
+.define .disclaimer span {
+    display: block;
+    font-style: italic;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.define .table-row .table-block:last-child,
+.define .table-row .table-block:nth-last-of-type(2) {
+    border-bottom: none;
+}
+
+.practice-guidelines p a {
+    color: var(--link-blue);
+    text-decoration: underline;
+}
+
+.practice-guidelines p a:hover {
+    color: var(--yellow);
+    text-decoration: none;
+}
+
+@media (max-width: 1599px) {
+
+    .member-resources .apbs-right p {
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 1399px) {
+
+    .member-resources .apbs-right p {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 991px) {
+    .access-journal .row>div:not(:first-child) {
+        margin-top: 30px;
+    }
+
+    .define .table-row {
+        margin-top: 40px;
+    }
+
+    .define .disclaimer {
+        border: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .access-journal .row>div:not(:first-child) {
+        margin-top: 20px;
+    }
+
+    .member-resources .apbs-right p {
+        margin-bottom: 20px;
+    }
+
+    .define .table-row {
+        margin-top: 30px;
+    }
+
+    .define .disclaimer {
+        padding: 15px 20px;
+    }
+}

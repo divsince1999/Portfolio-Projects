@@ -1,0 +1,187 @@
+.director-que .h2 {
+    margin-bottom: 30px;
+    max-width: 1050px;
+}
+
+.director-que-table-wrapper {
+    max-width: 1090px;
+    overflow: auto;
+}
+
+.director-que table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.director-que table td,
+.director-que table th {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    text-align: left;
+    padding: 20px 50px 20px 0;
+}
+
+.director-que table td a:hover {
+    color: var(--yellow) !important;
+}
+
+.director-que table tr td:first-child {
+    font-size: 18px;
+    font-weight: 600;
+    width: 41.5%;
+}
+
+.director-que table tr td:last-child {
+    font-size: 20px;
+    font-weight: 400;
+    width: 58.5%;
+}
+
+.director-que table tr td:last-child a {
+    color: #0170E3;
+}
+
+.bod .h2 {
+    margin-bottom: 10px;
+}
+
+.bod .row-subtitle {
+    font-weight: 600;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.bod-card-row {
+    margin-left: -6px;
+    margin-right: -6px;
+}
+
+.bod-card-row>*,
+.bod-ed-card-row>* {
+    margin-top: 20px;
+}
+
+.bod-card-row>* {
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.bod-ed-card {
+    background: #013E7D;
+    padding: 10px 10px 48px 10px;
+}
+
+.bod-ed-card .exe-dir {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+    object-position: top;
+    margin-bottom: 20px;
+}
+
+.bod-ed-card .card-details {
+    padding: 0 10px;
+}
+
+.bod-ed-card .card-details * {
+    color: var(--white);
+    margin-bottom: 2px;
+}
+
+.bod-ed-card .card-details .name,
+.bod-ed-card .card-details .pos {
+    font-weight: 600;
+}
+
+.bod-ed-card .card-details a {
+    opacity: 0.5;
+    text-decoration: underline;
+}
+
+.bod-ed-card .card-details a:hover {
+    opacity: 1;
+    text-decoration: none;
+}
+
+.bod-card {
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 0;
+    border: none;
+    padding: 15px;
+    height: 100%;
+}
+
+.bod-card img {
+    height: 240px;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    object-position: top;
+}
+
+.bod-card .card-details .h6 {
+    color: var(--yellow);
+    margin-bottom: 0;
+    font-weight: 600;
+}
+
+.bod-card .card-details strong {
+    font-weight: 600;
+}
+
+.bod-card .card-details p {
+    margin-bottom: 0;
+    color: var(--black);
+}
+
+.bod-card .card-details a {
+    text-decoration: underline;
+    color: var(--black);
+}
+
+.bod-card .card-details a:hover {
+    text-decoration: none;
+}
+
+.bod-card .card-details a.phone-link {
+    text-decoration: none;
+}
+
+.bod-card .card-details p:last-child {
+    margin-bottom: 0;
+}
+
+@media (max-width: 1599px) {
+    .bod-card img {
+        height: 220px;
+    }
+}
+
+@media (max-width: 1399px) {
+    .director-que table tr td:first-child {
+        font-size: 17px;
+    }
+
+    .bod-ed-card {
+        padding: 10px 10px 38px 10px;
+    }
+}
+
+@media (max-width: 991px) {
+
+    .director-que table td,
+    .director-que table th {
+        padding: 18px 50px 18px 0;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .director-que table td,
+    .director-que table th {
+        padding: 15px 40px 15px 0;
+    }
+
+    .bod-ed-card .card-details {
+        padding: 0 5px;
+    }
+}

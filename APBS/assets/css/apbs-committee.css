@@ -1,0 +1,75 @@
+.focus-row>div {
+  margin-bottom: 60px;
+}
+
+/* Links Block CSS */
+.links-block {
+  margin-top: 10px;
+}
+
+.links-block a {
+  margin-right: 35px;
+  text-decoration: underline;
+  color: #0170E3;
+}
+
+.links-block a:hover {
+  text-decoration: none;
+}
+
+/* Committee Info Block CSS */
+.committee-info-block .h2 {
+  margin-bottom: 0;
+}
+
+.committee-info-block img {
+  margin-bottom: 35px;
+}
+
+.committee-info-block .h6 {
+  font-weight: 600;
+  color: #222222;
+}
+
+.committee-info-block ul {
+  /* margin-left: 20px; */
+}
+
+.committee-info-block ul li {
+  /* list-style-image: url('../images/dot.png'); */
+  /* padding-left: 20px; */
+  /* margin: 0 0 30px; */
+}
+
+.committee-info-block ul li:last-child {
+  margin-bottom: 0;
+}
+
+/* Form Section CSS */
+.form-section .h6 {
+  color: #222222;
+  margin-top: 40px;
+}
+
+.form-section label {
+  font-size: 18px;
+  line-height: 28px;
+  color: #222222;
+  font-weight: 400;
+  margin-bottom: 12px;
+}
+
+.form-control {
+  border-radius: 0;
+  height: 53px;
+  border: 1px solid #9C9C9C;
+  background: none;
+  margin-bottom: 22px;
+  font-size: 16px;
+  color: #7E7E7E;
+  padding: 17px 20px;
+}
+
+.form-control:focus {
+  border-color: var(--yellow);
+}

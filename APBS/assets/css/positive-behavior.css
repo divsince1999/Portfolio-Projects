@@ -1,0 +1,9 @@
+.references p{
+    margin-bottom: 0;
+}
+
+@media (max-width: 991px) {
+    .references .row>div:not(:first-child) {
+        margin-top: 20px;
+    }
+}

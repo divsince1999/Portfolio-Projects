@@ -1,0 +1,282 @@
+.leadership-content-box {
+    padding: 45px 32px;
+    background: var(--blue);
+    border-left: 7px solid var(--yellow);
+}
+
+.leadership-content-box p {
+    color: var(--white);
+    font-weight: 600;
+}
+
+.leadership p:last-child {
+    margin-bottom: 0;
+}
+
+.member .h2 {
+    margin-bottom: 40px;
+}
+
+.member .title {
+    color: var(--black);
+    display: flex;
+    align-items: center;
+}
+
+.member .title .icon {
+    margin-right: 12px;
+    font-size: 38px;
+}
+
+.member .subtitle {
+    font-style: italic;
+    font-weight: 600;
+    color: var(--black);
+}
+
+.member .h6 {
+    font-weight: 600;
+    color: var(--black);
+}
+
+.member .btn-block {
+    margin-top: 30px;
+    font-size: 0;
+    margin-bottom: -24px;
+}
+
+.member-left {
+    padding-right: 45px;
+    width: 55%;
+}
+
+.member-right {
+    padding-left: 45px;
+    width: 45%;
+}
+
+.member .btn-block a {
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    padding: 21px 30px;
+    width: calc(50% - 12px);
+    margin-right: 12px;
+    margin-bottom: 24px;
+}
+
+.member .btn-block a:nth-child(2n) {
+    margin-right: 0;
+    margin-left: 12px;
+}
+
+.member .btn-block a .p {
+    display: block;
+    margin: 0;
+    transition: var(--transition);
+}
+
+.member .btn-block a .p strong {
+    font-weight: 600;
+}
+
+.member .btn-block a:hover {
+    border-color: var(--yellow);
+}
+
+.member .btn-block a:hover .p {
+    color: var(--yellow);
+}
+
+.member-row p a {
+    color: var(--link-blue);
+    text-decoration: underline;
+}
+
+.member-row p a:hover {
+    color: var(--yellow);
+    text-decoration: none;
+}
+
+.member-list li:last-child {
+    margin-bottom: 0;
+}
+
+.member .note-block {
+    background: #FBF1E6;
+    padding: 25px 32px;
+    border-left: 5px solid var(--yellow);
+    margin-top: 32px;
+}
+
+.member .note-block p {
+    margin: 0;
+}
+
+.questions .title-block .h2,
+.questions .title-block p {
+    text-align: center;
+}
+
+.questions .title-block p {
+    max-width: 630px;
+    margin: 0 auto;
+}
+
+.questions .title-block a {
+    color: var(--link-blue);
+    text-decoration: underline;
+}
+
+.questions .title-block a:hover {
+    color: var(--yellow);
+    text-decoration: none;
+}
+
+.questions .ways-block {
+    margin-top: 80px;
+    padding: 42px 110px 42px 50px;
+    background: var(--blue);
+    border-left: 6px solid var(--light-blue);
+}
+
+.questions .ways-block .h2,
+.questions .ways-block p {
+    color: var(--white);
+}
+
+.questions .ways-block p {
+    display: flex;
+    margin-bottom: 12px;
+}
+
+.questions .ways-block label {
+    font-weight: 600;
+    margin-right: 12px;
+}
+
+.questions .ways-block p:last-child {
+    margin-bottom: 0;
+}
+
+.coming-soon img {
+    width: 100%;
+}
+
+@media (max-width: 1599px) {
+    .member-left {
+        padding-right: 30px;
+    }
+
+    .member-right {
+        padding-left: 30px;
+    }
+
+    .questions .ways-block {
+        margin-top: 60px;
+    }
+}
+
+@media (max-width: 1399px) {
+    .leadership-content-box {
+        padding: 35px 25px;
+    }
+
+    .member .h2 {
+        margin-bottom: 30px;
+    }
+
+    .member-left {
+        padding-right: 20px;
+    }
+
+    .member-right {
+        padding-left: 20px;
+    }
+
+    .member .btn-block a {
+        padding: 18px 22px;
+    }
+
+    .member .btn-block {
+        margin-top: 20px;
+    }
+
+    .member .note-block {
+        padding: 20px 25px;
+    }
+
+    .questions .ways-block {
+        padding: 36px 80px 36px 40px;
+    }
+
+    .questions .ways-block p {
+        margin-bottom: 10px;
+    }
+
+    .questions .ways-block {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 991px) {
+    .leadership-content-box {
+        margin-top: 30px;
+    }
+
+    .member-left,
+    .member-right {
+        width: 100%;
+    }
+
+    .member-right {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 575px) {
+    .leadership-content-box {
+        padding: 30px 20px;
+    }
+
+    .member .h2 {
+        margin-bottom: 25px;
+    }
+
+    .member .btn-block a {
+        /* width: 100%; */
+        /* margin-right: 0; */
+        width: auto;
+    }
+
+    .member .btn-block a:nth-child(2n) {
+        margin-left: 0;
+    }
+
+    .member .btn-block a {
+        margin-bottom: 15px;
+    }
+
+    .member .btn-block a {
+        padding: 15px 18px;
+    }
+
+    .questions .ways-block {
+        margin-top: 40px;
+    }
+
+    .questions .ways-block {
+        padding: 30px;
+    }
+
+    .questions .ways-block p {
+        display: block;
+    }
+
+    .questions .ways-block label {
+        width: 100%;
+    }
+
+    .questions .ways-block p {
+        margin-bottom: 15px;
+    }
+}

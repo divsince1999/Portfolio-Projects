@@ -1,0 +1,321 @@
+.awards .img-txt-row p:last-child {
+    margin-bottom: 0;
+}
+
+.awards .img-txt-row {
+    margin-bottom: 30px;
+}
+
+.awards .links-row a {
+    padding: 21px 30px;
+    border: 1px solid #000000;
+    display: block;
+    height: 100%;
+}
+
+.awards .links-row a span {
+    display: block;
+    margin-bottom: 5px;
+    color: var(--black);
+    transition: var(--transition);
+}
+
+.awards .links-row a:hover span {
+    color: var(--yellow);
+}
+
+.awards .links-row a span:last-child {
+    margin-bottom: 0;
+}
+
+.awards .links-row a .h6 {
+    font-weight: 600;
+}
+
+.awards .title-block {
+    display: flex;
+    padding: 8px 25px;
+    align-items: center;
+    border-left: 6px solid var(--yellow);
+    margin-top: 60px;
+}
+
+.awards .title-block .h2 {
+    margin-bottom: 0;
+}
+
+.awards .title-block p {
+    margin-left: 35px;
+    margin-bottom: 0;
+}
+
+.nominations-invited p:last-child,
+.nominations-invited li:last-child {
+    margin-bottom: 0;
+}
+
+.nominations-invited-img-row {
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.nominations-invited-img-row .box {
+    position: relative;
+}
+
+.nominations-invited-img-row .box img {
+    height: 400px;
+    width: 100%;
+}
+
+.nominations-invited-img-row .box:hover .h3 {
+    color: var(--yellow);
+}
+
+.nominations-invited-img-row .box::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40%;
+    background: linear-gradient(359.35deg, #222222 0.52%, rgba(35, 35, 35, 0) 99.41%);
+}
+
+.nominations-invited-img-row .box .h3 {
+    position: absolute;
+    bottom: 0;
+    padding: 26px;
+    margin: 0;
+    color: var(--white);
+    font-weight: 600;
+    transition: var(--transition);
+}
+
+.nominations-invited-list-row {
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.nominations-invited-list-row .h6 {
+    color: var(--black);
+}
+
+.nominations-invited-list-row>div:nth-child(2n) {
+    border-left: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.nominations-invited .bottom-block {
+    padding: 25px 40px;
+    font-weight: 600;
+    color: var(--black);
+    background: #FBF1E6;
+    border-left: 5px solid var(--yellow);
+    margin-bottom: 0;
+}
+
+.nominations-invited .bottom-block span {
+    color: var(--yellow);
+}
+
+.img-txt .content-block {
+    display: flex;
+    /* align-items: center; */
+    flex-wrap: wrap;
+    background: var(--blue);
+}
+
+.img-txt .content-block .img-block {
+    width: 38%;
+    position: relative;
+}
+
+.img-txt .content-block .img-block:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 38%;
+    height: 100%;
+    background: linear-gradient(270deg, #013E7D 0%, rgba(1, 62, 125, 0) 100%);
+}
+
+.img-txt .content-block .img-block img {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    object-position: top;
+}
+
+.img-txt .content-block .txt-block {
+    width: 62%;
+    padding: 65px 70px 65px;
+    /* background: url('../images/ted-bg.svg'); */
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+.img-txt .content-block .txt-block .h2,
+.img-txt .content-block .txt-block p {
+    color: var(--white);
+}
+
+.img-txt .content-block .txt-block p {
+    margin-bottom: 0;
+}
+
+@media (max-width: 1599px) {
+    .awards .title-block {
+        margin-top: 50px;
+    }
+
+    .nominations-invited-img-row {
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+
+    .nominations-invited-img-row .box img {
+        height: 360px;
+    }
+
+    .nominations-invited-list-row {
+        margin-top: 50px;
+    }
+
+    .nominations-invited .bottom-block {
+        padding: 20px 35px;
+    }
+
+    .img-txt .content-block .txt-block {
+        padding: 50px 70px 50px;
+    }
+}
+
+@media (max-width: 1399px) {
+    .nominations-invited-img-row .box img {
+        height: 320px;
+    }
+
+    .nominations-invited-img-row .box .h3 {
+        padding: 20px;
+    }
+
+    .nominations-invited-img-row {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .awards .links-row a {
+        padding: 18px 25px;
+    }
+
+    .awards .title-block {
+        margin-top: 40px;
+    }
+
+    .nominations-invited .bottom-block {
+        padding: 18px 30px;
+    }
+
+    .img-txt .content-block .txt-block {
+        background-size: 150px;
+    }
+
+}
+
+@media (max-width: 1199px) {
+    .nominations-invited-img-row .box img {
+        height: 300px;
+    }
+}
+
+@media (max-width: 991px) {
+
+    .awards .img-txt-row>div:not(:first-child),
+    .awards .links-row>div:not(:first-child) {
+        margin-top: 20px;
+    }
+
+    .awards .img-txt-row {
+        margin-bottom: 20px;
+    }
+
+    .nominations-invited-img-row>div:not(:last-child) {
+        margin-bottom: 30px;
+    }
+
+    .nominations-invited-list-row {
+        margin-top: 40px;
+    }
+
+    .nominations-invited-list-row>div:nth-child(2n) {
+        border-left: none;
+    }
+
+    .nominations-invited-list-row>div:not(:first-child) {
+        margin-top: 30px;
+    }
+
+    .img-txt .content-block .img-block img {
+        position: unset;
+        height: 400px;
+    }
+
+    .img-txt .content-block .img-block,
+    .img-txt .content-block .txt-block {
+        width: 100%;
+    }
+
+    .img-txt .content-block .txt-block {
+        padding: 40px;
+    }
+
+    .img-txt .content-block .img-block:after {
+        top: unset;
+        right: unset;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 38%;
+        background: linear-gradient(0, #013E7D 0%, rgba(1, 62, 125, 0) 100%);
+    }
+}
+
+@media (max-width: 767px) {
+    .awards .title-block {
+        display: block;
+        padding: 8px 0 8px 25px;
+    }
+
+    .awards .title-block p {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+
+    .nominations-invited-img-row .box img {
+        height: 280px;
+    }
+
+    .nominations-invited-img-row>div:not(:last-child) {
+        margin-bottom: 20px;
+    }
+
+    .nominations-invited-list-row {
+        margin-top: 30px;
+    }
+
+    .nominations-invited .bottom-block {
+        padding: 15px 20px;
+    }
+
+    .img-txt .content-block .img-block img {
+        height: 320px;
+    }
+
+    .img-txt .content-block .txt-block {
+        padding: 20px;
+        background-size: 120px;
+    }
+}
